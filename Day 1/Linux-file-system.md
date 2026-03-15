@@ -44,7 +44,27 @@ Examples:
 * `cat`
 
 ---
+### /etc
 
+The `/etc` directory contains **system-wide configuration files** used by the Linux operating system and installed applications.
+
+It stores important settings that control how the system behaves, including user accounts, network configuration, services, and system startup settings.
+
+System administrators modify files in this directory to configure system behavior.
+
+Examples of important files:
+
+```bash
+/etc/passwd
+/etc/shadow
+/etc/hosts
+/etc/hostname
+/etc/fstab
+```
+
+For example, `/etc/hosts` maps hostnames to IP addresses.
+
+---
 ### /boot
 
 Contains files required for booting the Linux system.
