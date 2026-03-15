@@ -27,7 +27,8 @@ The root directory is represented by a **forward slash `/`**.
 It is the top-most directory in Linux, and all other directories and files exist under it.
 
 Example:
-image
+<img src="./images/Linux-filesystem-structure.png01" alt="Alt text" width="500"/>
+
 ---
 
 ## Important Linux Directories
