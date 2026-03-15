@@ -28,7 +28,7 @@ It is the top-most directory in Linux, and all other directories and files exist
 
 Example:
 
-<img src="../images/Linux-filesystem-structure.png" width="500">
+<img src="../images/Linux-filesystem-structure.png01.png" width="500">
 
 ---
 
