@@ -1,0 +1,192 @@
+# Linux Basic Commands 🐧
+
+## Introduction
+
+Linux provides many commands that allow users to interact with the operating system through the terminal. These commands help users navigate the system, manage files, and perform system-related tasks.
+
+Below are some commonly used basic Linux commands.
+
+---
+
+# 1. pwd (Print Working Directory)
+
+Displays the current directory you are working in.
+
+Example:
+
+```bash
+pwd
+```
+
+Example Output:
+
+```
+/home/anand
+```
+
+---
+
+# 2. whoami
+
+Displays the username of the currently logged-in user.
+
+Example:
+
+```bash
+whoami
+```
+
+Example Output:
+
+```
+anand
+```
+
+---
+
+# 3. date
+
+Displays the current system date and time.
+
+Example:
+
+```bash
+date
+```
+
+Example Output:
+
+```
+Sun Mar 16 10:20:30 IST 2026
+```
+
+---
+
+# 4. clear
+
+Clears the terminal screen.
+
+Example:
+
+```bash
+clear
+```
+
+---
+
+# 5. echo
+
+Displays text or variables in the terminal.
+
+Example:
+
+```bash
+echo Hello Linux
+```
+
+Example Output:
+
+```
+Hello Linux
+```
+
+---
+
+# 6. uname
+
+Displays system information.
+
+Example:
+
+```bash
+uname
+```
+
+Display detailed system information:
+
+```bash
+uname -a
+```
+
+Example Output:
+
+```
+Linux ubuntu 5.15.0 x86_64 GNU/Linux
+```
+
+---
+
+# 7. hostname
+
+Displays the system hostname.
+
+Example:
+
+```bash
+hostname
+```
+
+Example Output:
+
+```
+ubuntu-server
+```
+
+---
+
+# 8. man (Manual)
+
+Displays the manual page of a command.
+
+Example:
+
+```bash
+man ls
+```
+
+This will show detailed documentation about the `ls` command.
+
+---
+
+# 9. history
+
+Shows previously executed commands.
+
+Example:
+
+```bash
+history
+```
+
+Example Output:
+
+```
+1  ls
+2  cd Documents
+3  mkdir project
+```
+
+---
+
+# 10. exit
+
+Used to exit the terminal session.
+
+Example:
+
+```bash
+exit
+```
+
+---
+
+# Summary
+
+Basic Linux commands help users interact with the system and perform everyday tasks efficiently. Learning these commands is the first step toward mastering Linux and working with servers.
+
+---
+
+# Author
+
+Anand Singh
+B.Tech Graduate | Learning Linux for Cloud and DevOps
