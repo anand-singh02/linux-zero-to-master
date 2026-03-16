@@ -30,6 +30,23 @@ Display detailed information:
 ps -ef
 ```
 
+Display more-detailed information:
+
+```bash
+ps aux
+```
+
+To see process run by which user & group:
+
+```bash
+ps -u user
+ps -G group
+```
+Here:
+* `-u` User
+* `-G` Grroup
+
+
 Example Output:
 
 ```
@@ -105,6 +122,18 @@ Force terminate a process:
 
 ```bash
 kill -9 1234
+```
+
+To Stop a process:
+
+```bash
+kill -STOP 1234
+```
+
+To Resume a process:
+
+```bash
+kill -CONT 1234
 ```
 
 ---
@@ -202,6 +231,16 @@ Example:
 nice -n 10 python script.py
 ```
 
+# 9. renice
+
+The `renice` command change the priority of one or more already running processes.
+
+Example:
+
+```bash
+renice -n 10 -p 10943
+```
+
 Explanation:
 
 * `-n 10` sets a lower priority for the process.
@@ -220,6 +259,14 @@ Priority Range:
 # Summary
 
 Linux process management commands allow users to monitor and control running programs efficiently.
+
+To count the number of processes are running:
+
+``` bash
+ps aux | nl
+or
+ps aux | wc -l
+```
 
 Common commands include:
 
